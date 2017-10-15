@@ -35,8 +35,8 @@ pic: make object! [
 	]
 
 	mouse-over: [
-		if selected/1 = true [tl: event/offset show canv]
-		if selected/2 = true [br: event/offset show canv]
+		if selected/1 = true [tl: event/offset]
+		if selected/2 = true [br: event/offset]
 	]
 ]
 
